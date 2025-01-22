@@ -1,0 +1,37 @@
+# boilerplate ignore list for: node, express, pg, mac OS.
+
+# Node modules
+/node_modules
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+
+# macOS specific files
+.DS_Store
+
+# Build output
+/dist
+/build
+/.webpack
+/.next
+/.nuxt
+
+# PostgreSQL data (optional, depends on your setup)
+pgdata/
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# OS-specific files
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.bak
